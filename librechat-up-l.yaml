@@ -3,7 +3,9 @@ version: 1.2.4
 cache: true
 
 mcpServers:
-
+  gradio:
+    url: 'https://ersantana-mcp-sentiment.hf.space/gradio_api/mcp/sse'
+    
 interface:
   privacyPolicy:
     externalUrl: 'https://librechat.ai/privacy-policy'
