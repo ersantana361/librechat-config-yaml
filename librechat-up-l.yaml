@@ -5,7 +5,7 @@ cache: true
 mcpServers:
   gradio:
     type: sse
-    url: https://ersantana-mcp-sentiment.hf.space/gradio_api/mcp
+    url: https://ersantana-mcp-sentiment.hf.space/gradio_api/mcp/sse
     
 interface:
   privacyPolicy:
