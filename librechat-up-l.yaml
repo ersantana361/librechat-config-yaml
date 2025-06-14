@@ -21,19 +21,14 @@ registration:
     - "openid"
 
 
-    
+mcpServers:
+  gradio:
+    type: sse
+    url: https://ersantana-mcp-sentiment.hf.space/gradio_api/mcp/sse    
+
 
 endpoints:
   custom:
-    - name: "Sentiment Analyzer"                     # This is the name that will appear in the UI.
-      apiKey: ""                                  # Leave this blank as your app requires no key.
-      baseURL: "https://ersantana-mcp-sentiment.hf.space" # The root URL of your Hugging Face Space.
-      models:
-        default: ["sentiment-analyzer"]             # A list of model names you want to appear.
-        fetch: false                              # Prevents LibreChat from looking for a /v1/models endpoint.
-      titleConvo: true
-      modelDisplayLabel: "Sentiment"
-
     # APIpie
     # https://apipie.ai/dashboard/
     # Script to fetch models: https://github.com/LibreChat-AI/librechat-config-yaml/blob/main/scripts/apipie.py
